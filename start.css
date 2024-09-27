@@ -1,0 +1,35 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #926927;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    width: 50vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.point {
+    background-color: #f8b041;
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+}
+
+.row {
+    display: flex;
+    gap: 4px;
+    width: 100%;
+    justify-items: center;
+}
