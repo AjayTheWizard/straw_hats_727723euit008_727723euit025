@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sampl Webpage</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://cdn.tailwindcss.com"></script>
     <style>
         body {
@@ -23,9 +24,18 @@
             <a>Adventures</a>
         </div>
     </div>
-    <div class="h-screen flex">
-        <div></div>
+    <div data-aos="fade-up" class="h-screen flex">
+        <h1 class="text-center">Straw Hats Crews</h1>
+        <div class="mx-auto w-[90vw] [&>h2]:text-lg flex flex-col justify-center items-center">
+            <h2 data-aos="fade-right">Luffy ( King of The Pirates ) </h2>
+            <h2 data-aos="fade-right">Roronoa Zoro ( King of Hell ) </h2>
+            <h2 data-aos="fade-right">Roronoa Zoro ( King of Hell ) </h2>
+        </div>
     </div>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
 
 </html>
