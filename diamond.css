@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1b4342;
+}
+
+.inner-box {
+    width: 50px;
+    height: 50px;
+    background-color: #f3ab3c;
+}
+
+.inner-box:nth-child(1){
+    border-bottom-right-radius: 50%;
+}
+.inner-box:nth-child(2){
+    border-bottom-left-radius: 50%;
+}
+.inner-box:nth-child(3){
+    border-top-right-radius: 50%;
+}
+.inner-box:nth-child(4){
+    border-top-left-radius: 50%;
+}
